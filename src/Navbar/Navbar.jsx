@@ -16,6 +16,7 @@ import ArticleIcon from '@mui/icons-material/Article';
 import DescriptionIcon from '@mui/icons-material/Description';
 import TextSnippetIcon from '@mui/icons-material/TextSnippet';
 import InventoryIcon from '@mui/icons-material/Inventory';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [open, setOpen] = useState(false);
@@ -43,10 +44,12 @@ function Navbar() {
             >
             <MenuIcon />
             </IconButton>
-            <img src={logo} alt='logo' height={50} />
-            <Typography variant="h5" style={{fontWeight : 900,color : '#5f6572',paddingTop : 10}}>
-              Docs-Clone
-            </Typography>
+              <img src={logo} alt='logo' height='50px' width='50px'/>
+            <Link to ='/'>
+              <Typography variant="h5" style={{fontWeight : 900,color : '#5f6572',paddingTop : 10}}>
+                Docs-Clone
+              </Typography>
+            </Link>
           </Box>
             <TextField
               placeholder='Search...'
