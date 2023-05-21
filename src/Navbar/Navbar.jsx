@@ -139,6 +139,7 @@ function Navbar() {
               <ListItemText>Drive</ListItemText>
               </ListItemButton>
             </ListItem>
+          <Divider/>
           </List>
           <List style={{ marginTop: `auto`}} >
             <ListItem style={{textAlign : 'center'}}>
