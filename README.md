@@ -1,3 +1,26 @@
+# About the Project
+
+This is a React Web app clone of Google docs frontend .
+
+The Functionality and design of the project is given with use of :
+
+- ReactJs
+  - v18.2.0
+- react-router-dom
+  - v6.11.2
+- material-ui
+  - v5.13.1
+- tailwind css
+- draft-js
+  - v0.11.7
+- react-draft-wysiwyg
+  - v1.15.0
+
+# Demo Video Link
+
+- Youtube : https://www.youtube.com/embed/Lb2iGGO5v7k
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
